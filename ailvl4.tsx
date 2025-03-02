@@ -14,7 +14,7 @@ const levelsDataAI = [
         "leveller": {
           "id": "4-1",
           "title": "Is It a Bird?",
-          "desc": "Build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+          "desc": "In this task, you will learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
           "brief": "Learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
           "ig": "AI",
           "icon": <MdAutoAwesome />,
@@ -22,13 +22,14 @@ const levelsDataAI = [
           "publishedBy": "Community",
           "publishedWhen": "18/12/2023, 17:45",
           "prerequisites": ["Basic Python"],
-          "resources": ["https://course.fast.ai/Lessons/lesson1.html"]
+          "resources": ["https://course.fast.ai/Lessons/lesson1.html"],
+          "hashtag": "#cl-ai-birdmodel"
         },
         "cards": [
           {
             "id": "4-1",
             "title": "Is It a Bird?",
-            "desc": "Build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+            "desc": "In this task, you will learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
             "brief": "Learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
             "ig": "AI",
             "icon": <MdAutoAwesome />,
@@ -36,12 +37,13 @@ const levelsDataAI = [
             "publishedBy": "Community",
             "publishedWhen": "18/12/2023, 17:45",
             "prerequisites": ["Basic Python"],
-            "resources": ["https://course.fast.ai/Lessons/lesson1.html"]
+            "resources": ["https://course.fast.ai/Lessons/lesson1.html"],
+            "hashtag": "#cl-ai-birdmodel"
           },
           {
             "id": "4-2",
             "title": "HuggingFace Deploy",
-            "desc": "Train a model using a dataset you created using DDG API, which identifies any object of your choice, and deploy it to HuggingFace Space using Gradio/Streamlit for UI.",
+            "desc": "In this task, you will learn how to train a model using a dataset you created using DDG API, which identifies any object of your choice, and deploy it to HuggingFace Space using Gradio/Streamlit for UI.",
             "brief": "Learn how to create a custom dataset, train a model, and deploy it to HuggingFace Space with a web interface.",
             "ig": "AI",
             "icon": <MdCloud />,
@@ -49,12 +51,13 @@ const levelsDataAI = [
             "publishedBy": "Community",
             "publishedWhen": "18/12/2023, 18:21",
             "prerequisites": ["Basic Machine Learning"],
-            "resources": ["https://course.fast.ai/Lessons/lesson2.html"]
+            "resources": ["https://course.fast.ai/Lessons/lesson2.html"],
+            "hashtag": "#cl-ai-hfdeploy"
           },
           {
             "id": "4-3",
             "title": "Gradient Descent",
-            "desc": "Build a quadratic equation solver that solves x in the format ax^3 + bx^2 + cx + d initializing a, b, c, and d to an integer, with the help of Stochastic Gradient Descent (SGD) and the Rectified Linear Function (ReLU).",
+            "desc": "In this task, you will learn how to build a quadratic equation solver that solves x in the format ax^3 + bx^2 + cx + d initializing a, b, c, and d to an integer, with the help of Stochastic Gradient Descent (SGD) and the Rectified Linear Function (ReLU).",
             "brief": "Learn optimization techniques by implementing a polynomial equation solver using SGD and ReLU.",
             "ig": "AI",
             "icon": <MdScience />,
@@ -62,12 +65,13 @@ const levelsDataAI = [
             "publishedBy": "Community",
             "publishedWhen": "18/12/2023, 18:38",
             "prerequisites": ["Python", "Basic Calculus"],
-            "resources": ["https://course.fast.ai/Lessons/lesson3.html"]
+            "resources": ["https://course.fast.ai/Lessons/lesson3.html"],
+            "hashtag": "#cl-ai-gradientdescent"
           },
           {
             "id": "4-4",
             "title": "Blog Your Brain",
-            "desc": "Write a very detailed blog on NLP (Natural Language Processing) after watching the lesson 4 video provided below. Upload the blog to Medium.",
+            "desc": "In this task, you are required to write a very detailed blog on NLP (Natural Language Processing) after watching the lesson 4 video provided below. Upload the blog to Medium (https://medium.com/).",
             "brief": "Create and publish a comprehensive article about Natural Language Processing fundamentals and applications.",
             "ig": "AI",
             "icon": <MdArticle />,
@@ -75,7 +79,8 @@ const levelsDataAI = [
             "publishedBy": "Community",
             "publishedWhen": "18/12/2023, 19:14",
             "prerequisites": ["Basic ML Knowledge"],
-            "resources": ["https://course.fast.ai/Lessons/lesson4.html"]
+            "resources": ["https://course.fast.ai/Lessons/lesson4.html"],
+            "hashtag": "#cl-ai-nlpblog"
           }
         ]
       }
