@@ -1,0 +1,84 @@
+import React from "react";
+import {
+  MdAutoAwesome,
+  MdCloud,
+  MdArticle,
+  MdScience
+} from "react-icons/md";
+
+const levelsDataAI = [
+    {
+        "level": 4,
+        "title": "Level 4",
+        "subtitle": "Machine Learning Fundamentals",
+        "leveller": {
+          "id": "4-1",
+          "title": "Is It a Bird?",
+          "desc": "Build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+          "brief": "Learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+          "ig": "AI",
+          "icon": <MdAutoAwesome />,
+          "skills": ["Image Classification", "Machine Learning", "Jupyter Notebook"],
+          "publishedBy": "Community",
+          "publishedWhen": "18/12/2023, 17:45",
+          "prerequisites": ["Basic Python"],
+          "resources": ["https://course.fast.ai/Lessons/lesson1.html"]
+        },
+        "cards": [
+          {
+            "id": "4-1",
+            "title": "Is It a Bird?",
+            "desc": "Build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+            "brief": "Learn how to build your first machine-learning model that identifies whether an image consists of a bird, using Kaggle and Jupyter Notebook.",
+            "ig": "AI",
+            "icon": <MdAutoAwesome />,
+            "skills": ["Image Classification", "Machine Learning", "Jupyter Notebook"],
+            "publishedBy": "Community",
+            "publishedWhen": "18/12/2023, 17:45",
+            "prerequisites": ["Basic Python"],
+            "resources": ["https://course.fast.ai/Lessons/lesson1.html"]
+          },
+          {
+            "id": "4-2",
+            "title": "HuggingFace Deploy",
+            "desc": "Train a model using a dataset you created using DDG API, which identifies any object of your choice, and deploy it to HuggingFace Space using Gradio/Streamlit for UI.",
+            "brief": "Learn how to create a custom dataset, train a model, and deploy it to HuggingFace Space with a web interface.",
+            "ig": "AI",
+            "icon": <MdCloud />,
+            "skills": ["Model Deployment", "Dataset Creation", "Gradio/Streamlit"],
+            "publishedBy": "Community",
+            "publishedWhen": "18/12/2023, 18:21",
+            "prerequisites": ["Basic Machine Learning"],
+            "resources": ["https://course.fast.ai/Lessons/lesson2.html"]
+          },
+          {
+            "id": "4-3",
+            "title": "Gradient Descent",
+            "desc": "Build a quadratic equation solver that solves x in the format ax^3 + bx^2 + cx + d initializing a, b, c, and d to an integer, with the help of Stochastic Gradient Descent (SGD) and the Rectified Linear Function (ReLU).",
+            "brief": "Learn optimization techniques by implementing a polynomial equation solver using SGD and ReLU.",
+            "ig": "AI",
+            "icon": <MdScience />,
+            "skills": ["Stochastic Gradient Descent", "Optimization", "ReLU"],
+            "publishedBy": "Community",
+            "publishedWhen": "18/12/2023, 18:38",
+            "prerequisites": ["Python", "Basic Calculus"],
+            "resources": ["https://course.fast.ai/Lessons/lesson3.html"]
+          },
+          {
+            "id": "4-4",
+            "title": "Blog Your Brain",
+            "desc": "Write a very detailed blog on NLP (Natural Language Processing) after watching the lesson 4 video provided below. Upload the blog to Medium.",
+            "brief": "Create and publish a comprehensive article about Natural Language Processing fundamentals and applications.",
+            "ig": "AI",
+            "icon": <MdArticle />,
+            "skills": ["Technical Writing", "NLP", "Communication"],
+            "publishedBy": "Community",
+            "publishedWhen": "18/12/2023, 19:14",
+            "prerequisites": ["Basic ML Knowledge"],
+            "resources": ["https://course.fast.ai/Lessons/lesson4.html"]
+          }
+        ]
+      }
+];
+
+export default levelsDataAI;
